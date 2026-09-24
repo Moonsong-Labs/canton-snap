@@ -141,7 +141,7 @@ npm run test:snap     # snap integration tests only (jest + @metamask/snaps-jest
 
 **MetaMask Flask required** — Until the snap is published to npm and reviewed by MetaMask, only MetaMask Flask users can install it.
 
-**Local snap mode** — Local development uses `local:http://localhost:4040` and requires MetaMask Flask. Published snap mode uses `npm:@moonsonglabs/canton-snap` with standard MetaMask.
+**Local snap mode** — Local development uses `local:http://localhost:4040` and requires MetaMask Flask. Published snap mode uses `npm:@moonsong-labs/canton-snap` with standard MetaMask.
 
 **Each developer runs their own snap server** — The `local:` snap ID is bound to localhost; teammates cannot share one instance.
 

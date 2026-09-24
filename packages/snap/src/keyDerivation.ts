@@ -10,7 +10,7 @@
  *
  * Note: snap_getEntropy is scoped to the snap's ID, so a key derived
  * under `local:http://localhost:4040` will differ from one derived
- * under `npm:@moonsonglabs/canton-snap`. Canton identities are tied to
+ * under `npm:@moonsong-labs/canton-snap`. Canton identities are tied to
  * the published snap.
  */
 

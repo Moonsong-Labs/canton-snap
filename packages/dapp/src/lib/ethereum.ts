@@ -2,7 +2,7 @@
 
 import { getAddress } from "ethers";
 
-const PUBLISHED_SNAP_ID = "npm:@moonsonglabs/canton-snap";
+const PUBLISHED_SNAP_ID = "npm:@moonsong-labs/canton-snap";
 const PUBLISHED_SNAP_VERSION = "^0.2.0";
 
 export const SNAP_ID = import.meta.env.VITE_SNAP_ID ?? PUBLISHED_SNAP_ID;

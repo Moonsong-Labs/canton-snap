@@ -8,12 +8,12 @@
     "directory": "packages/snap"
   },
   "source": {
-    "shasum": "Lnyqa7lfM8G8z++O5Ud2eCaAYQnzY+h1iZhTVxcb2/Y=",
+    "shasum": "uhTmyM8JZrtDiJvYHHdoMIdkilT1ow1vOOlncTMnVJ4=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
         "iconPath": "images/icon.svg",
-        "packageName": "@moonsonglabs/canton-snap",
+        "packageName": "@moonsong-labs/canton-snap",
         "registry": "https://registry.npmjs.org"
       }
     }
