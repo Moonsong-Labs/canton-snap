@@ -1,5 +1,5 @@
 {
-  "name": "@chainsafe/canton-snap",
+  "name": "@moonsonglabs/canton-snap",
   "version": "1.0.0",
   "description": "MetaMask Snap for non-custodial Canton Network signing",
   "keywords": [
@@ -10,13 +10,13 @@
     "secp256k1",
     "ecdsa"
   ],
-  "homepage": "https://github.com/ChainSafe/canton-snap#readme",
+  "homepage": "https://github.com/Moonsong-Labs/canton-snap#readme",
   "bugs": {
-    "url": "https://github.com/ChainSafe/canton-snap/issues"
+    "url": "https://github.com/Moonsong-Labs/canton-snap/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChainSafe/canton-snap.git",
+    "url": "git+https://github.com/Moonsong-Labs/canton-snap.git",
     "directory": "packages/snap"
   },
   "license": "Apache-2.0",
