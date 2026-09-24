@@ -9,7 +9,7 @@
   "packages": {
     "packages/snap": {
       "component": "snap",
-      "package-name": "@moonsong-labs/canton-snap",
+      "package-name": "@moonsonglabs/canton-snap",
       "changelog-path": "CHANGELOG.md",
       "include-paths": ["packages/snap"],
       "extra-files": [

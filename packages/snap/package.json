@@ -1,5 +1,5 @@
 {
-  "name": "@moonsong-labs/canton-snap",
+  "name": "@moonsonglabs/canton-snap",
   "version": "1.0.0",
   "description": "MetaMask Snap for non-custodial Canton Network signing",
   "keywords": [

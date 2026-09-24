@@ -1,6 +1,6 @@
 # Canton Snap
 
-Moonsong Labs fork of [ChainSafe's Canton Snap](https://github.com/ChainSafe/canton-snap), published as `@moonsong-labs/canton-snap`. The fork ships a flat icon, since MetaMask refuses the upstream icon at install time, and keeps the signing code unchanged.
+Moonsong Labs fork of [ChainSafe's Canton Snap](https://github.com/ChainSafe/canton-snap), published as `@moonsonglabs/canton-snap`. The fork ships a flat icon, since MetaMask refuses the upstream icon at install time, and keeps the signing code unchanged.
 
 MetaMask Snap for non-custodial Canton Network signing.
 
@@ -19,7 +19,7 @@ MetaMask (encrypted vault, holds seed)
          └─ Returns signature to dApp
 ```
 
-Keys are **scoped to the snap ID**, not derived from a BIP-44 path. The same MetaMask seed will produce a different Canton identity under `local:http://localhost:4040` vs `npm:@moonsong-labs/canton-snap`. The published snap is the recoverable identity; local dev keys are independent. There is no migration path between snap IDs — re-register the new identity with Canton if the snap ID changes.
+Keys are **scoped to the snap ID**, not derived from a BIP-44 path. The same MetaMask seed will produce a different Canton identity under `local:http://localhost:4040` vs `npm:@moonsonglabs/canton-snap`. The published snap is the recoverable identity; local dev keys are independent. There is no migration path between snap IDs — re-register the new identity with Canton if the snap ID changes.
 
 The **Canton dApp** (`packages/dapp`) is the browser frontend. It drives MetaMask + the snap for key operations, and talks to the Canton middleware REST API for registration and transaction flows.
 
@@ -76,7 +76,7 @@ The dApp can run against either the published snap on npm (default) or a locally
 
 ### Mode A — published snap (default, standard MetaMask)
 
-Leave `VITE_SNAP_ID` unset. The dApp uses `npm:@moonsong-labs/canton-snap` and works with the standard MetaMask extension.
+Leave `VITE_SNAP_ID` unset. The dApp uses `npm:@moonsonglabs/canton-snap` and works with the standard MetaMask extension.
 
 ```bash
 npm install
@@ -154,10 +154,10 @@ Manual trigger: Actions → Release Please → Run workflow.
 
 ## Installing the Published Snap
 
-Snap ID: `npm:@moonsong-labs/canton-snap`. Works with standard MetaMask (no Flask).
+Snap ID: `npm:@moonsonglabs/canton-snap`. Works with standard MetaMask (no Flask).
 
 ```ts
-const SNAP_ID = "npm:@moonsong-labs/canton-snap";
+const SNAP_ID = "npm:@moonsonglabs/canton-snap";
 
 await window.ethereum.request({
   method: "wallet_requestSnaps",

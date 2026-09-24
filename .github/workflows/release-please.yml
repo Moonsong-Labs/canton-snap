@@ -119,11 +119,11 @@ jobs:
             echo '```ts'
             echo 'await window.ethereum.request({'
             echo '  method: "wallet_requestSnaps",'
-            echo "  params: { \"npm:@moonsong-labs/canton-snap\": { version: \"^${VERSION}\" } },"
+            echo "  params: { \"npm:@moonsonglabs/canton-snap\": { version: \"^${VERSION}\" } },"
             echo '});'
             echo '```'
             echo
-            echo "Published to npm: https://www.npmjs.com/package/@moonsong-labs/canton-snap/v/${VERSION}"
+            echo "Published to npm: https://www.npmjs.com/package/@moonsonglabs/canton-snap/v/${VERSION}"
           } > install-notes.md
           gh release view "$TAG" --json body --jq .body > existing-notes.md || true
           cat existing-notes.md install-notes.md > combined-notes.md
